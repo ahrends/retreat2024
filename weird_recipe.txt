@@ -1,1 +1,4 @@
-###Weird, alternative recipe ###EggsMayoCandy
+###Weird, alternative recipe ###\n
+Eggs\n
+Mayo\n
+Candy\n

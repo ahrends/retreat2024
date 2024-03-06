@@ -18,7 +18,7 @@ from imblearn.over_sampling import SMOTE
 from datetime import datetime
 import sys
 
-data_set = 3 # 1. Bcn; 2. Miriad; 3. Oasis
+data_set = 2 # 0. Bcn; 1. Miriad; 2. Oasis
 base_dir = '/Users/au734696/Dropbox/BACKUP/PhD/Data_and_scripts/Python/Retreat'
 
 # some options

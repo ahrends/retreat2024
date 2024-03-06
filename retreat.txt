@@ -1,7 +1,11 @@
 Hello retreat!
 
 <<<<<<< HEAD
+Hello Dude!!
+=======
+<<<<<<< HEAD
 Greetings from Laura test
 =======
 Hello Dude!!
 >>>>>>> d572e8b4f0154dc46b45a91ad6c8957096af4d80
+>>>>>>> upstream/main

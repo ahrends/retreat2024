@@ -8,18 +8,18 @@ from sklearn.mixture import GaussianMixture
 from ppca import PPCA
 from imblearn.over_sampling import SMOTE
 from sklearn.decomposition import PCA
-from sklearn.linear_model import LogisticRegressionCV,LogisticRegression,Ridge,RidgeCV,ElasticNetCV,GammaRegressor
+from sklearn.linear_model import LogisticRegressionCV,LogisticRegression,Ridge,RidgeCV,ElasticNetCV,GammaRegressor, HuberRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import confusion_matrix
 from imblearn.over_sampling import SMOTE
-import regression_things
+# import regression_things
 from datetime import datetime
 import sys
 
 data_set = 3 # 1. Bcn; 2. Miriad; 3. Oasis
-base_dir = '/Users/admin/Dropbox/Python_Code/latent_trajectories/'
+base_dir = '/Users/au734696/Dropbox/BACKUP/PhD/Data_and_scripts/Python/Retreat'
 
 # some options
 modality = 3 # 0: GrayVol, 1: ThickAvg, 2: subcortical, 3: Grayvol+subcortical, 4: ThickAvg+subcortical, 5: SurfArea+subcort
